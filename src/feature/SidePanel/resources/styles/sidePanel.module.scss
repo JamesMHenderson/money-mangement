@@ -1,0 +1,10 @@
+.container {
+  grid-area: side;
+  overflow: hidden;
+  width: 20rem;
+
+  :global(.MuiDrawer-paper) {
+    position: static;
+    overflow-x: hidden;
+  }
+}
